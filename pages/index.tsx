@@ -4,7 +4,7 @@ import {
   Main,
   Title,
   Description,
-  CodeTag,
+  CtaRow,
 } from "../components/sharedstyles";
 import Cards from "../components/cards";
 import LogoComponent from "../components/logoComponent";
@@ -24,12 +24,18 @@ export default function Home() {
       <Main>
         <LogoComponent />
         <Title>ReSelfridges NFT</Title>
-        <ImageComponent img={sLogo} />
-        <LinkOrButton>hello world</LinkOrButton>
+        <ImageComponent img={sLogo} badge />
+
         <Description>
-          Get started by editing
-          <CodeTag>pages/index.tsx</CodeTag>
+          <h2 style={{ margin: 0 }}>Gucci Bag</h2>
         </Description>
+        <Description>Vintage 2021</Description>
+        <Description>Pre-owned / Pre-loved</Description>
+
+        <CtaRow>
+          <LinkOrButton href="/about">BUY</LinkOrButton>
+          <LinkOrButton href="/about">NFT INFO</LinkOrButton>
+        </CtaRow>
 
         <Cards />
       </Main>

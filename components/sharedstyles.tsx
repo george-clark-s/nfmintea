@@ -50,8 +50,9 @@ const Title = styled.h1`
 
 const Description = styled.p`
   text-align: center;
-  line-height: 1.5;
+  line-height: 1;
   font-size: 1.5rem;
+  margin: 0.5rem;
 `;
 const CodeTag = styled.code`
   background: #fafafa;
@@ -63,4 +64,11 @@ const CodeTag = styled.code`
     Bitstream Vera Sans Mono, Courier New, monospace;
 `;
 
-export { SiteWrap, Container, Main, Logo, Title, Description, CodeTag };
+const CtaRow = styled.div`
+  padding: 0 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export { SiteWrap, Container, Main, Logo, Title, Description, CtaRow };
