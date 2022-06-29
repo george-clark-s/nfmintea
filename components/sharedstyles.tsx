@@ -7,7 +7,6 @@ const SiteWrap = styled.div`
   align-items: center;
   height: 100vh;
   min-height: 100vh;
-
   background: ${({ theme }) => theme.colors.primary};
 `;
 
@@ -15,12 +14,6 @@ const Container = styled.div`
   padding: 0 0.5rem;
   background white;
   max-width: 40rem;
-  /* display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  min-height: 100vh; */
 `;
 const Main = styled.main`
   padding: 5rem 0;
@@ -30,6 +23,8 @@ const Main = styled.main`
   justify-content: center;
   align-items: center;
 `;
+
+const Logo = styled.div``;
 
 const Title = styled.h1`
   margin: 0;
@@ -64,4 +59,4 @@ const CodeTag = styled.code`
     Bitstream Vera Sans Mono, Courier New, monospace;
 `;
 
-export { SiteWrap, Container, Main, Title, Description, CodeTag };
+export { SiteWrap, Container, Main, Logo, Title, Description, CodeTag };

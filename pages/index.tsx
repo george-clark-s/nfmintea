@@ -1,12 +1,15 @@
-import Head from 'next/head'
+import Image from "next/image";
+import Head from "next/head";
 import {
   Container,
   Main,
+  Logo,
   Title,
   Description,
   CodeTag,
-} from '../components/sharedstyles'
-import Cards from '../components/cards'
+} from "../components/sharedstyles";
+import Cards from "../components/cards";
+import sLogo from "../public/sLogo.svg";
 
 export default function Home() {
   return (
@@ -17,6 +20,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main>
+        <Logo>
+          <Image src={sLogo} />
+        </Logo>
         <Title>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </Title>
@@ -29,5 +35,5 @@ export default function Home() {
         <Cards />
       </Main>
     </Container>
-  )
+  );
 }
