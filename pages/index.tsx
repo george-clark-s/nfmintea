@@ -29,8 +29,8 @@ export default function Home() {
         <Description>
           <h2>Gucci Bag</h2>
         </Description>
-        <Description>Vintage 2021</Description>
-        <Description>Pre-owned / Pre-loved</Description>
+        <Description>Vintage 2021 </Description>
+        <Description>Pre-owned / Pre-loved </Description>
         <CtaRow>
           <LinkOrButton href="/buy">BUY</LinkOrButton>
           <LinkOrButton href="/info">NFT INFO</LinkOrButton>

@@ -35,7 +35,7 @@ export default function Home() {
           <h3 style={{ margin: 0 }}>£999.99</h3>
         </Description>
         <CtaRow>
-          <LinkOrButton href="/buy">ADD TO CART</LinkOrButton>
+          <LinkOrButton href="/buy">ADD TO CART </LinkOrButton>
         </CtaRow>
       </Main>
     </Container>

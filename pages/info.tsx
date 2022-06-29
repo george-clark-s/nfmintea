@@ -30,16 +30,19 @@ export default function Home() {
           <h2 style={{ margin: 0 }}>Gucci Bag</h2>
         </Description>
         <Description>
-          Transaction ID - <em>xxx-xxx-xxx</em>
+          Transaction ID - <em>xxx-xxx-xxx </em>
         </Description>
         <Description>
           Condition - <em>5</em>
         </Description>
         <Description>
-          <h3 style={{ margin: 0 }}>£999.99</h3>
+          <h3 style={{ margin: 0 }}>£999.99 </h3>
         </Description>
         <CtaRow center>
-          <LinkOrButton href="/buy">ADD TO CART</LinkOrButton>
+          <LinkOrButton href="/timeline">
+            See Provenance
+            <br /> Timeline
+          </LinkOrButton>
         </CtaRow>
       </Main>
     </Container>
