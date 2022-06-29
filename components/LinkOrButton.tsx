@@ -23,7 +23,9 @@ const LinkOrButton: React.FC<LinkOrButtonProps> = ({ href, children }) => {
 export default LinkOrButton;
 
 const Button = styled.button`
-  background-color: #ffe256;
+  border-radius: 0.2rem;
+  min-width: 9rem;
+  background-color: gold;
   color: #212121;
   text-align: center;
   padding: 10px;
