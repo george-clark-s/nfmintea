@@ -23,8 +23,8 @@ export default function Home() {
       </Head>
       <Main>
         <LogoComponent />
-        <Title>ReSelfridges NFT</Title>
-        <ImageComponent img={sLogo} badge />
+        <Title>ReSelfridges NFT Marketplace</Title>
+        <ImageComponent img={sLogo} badge small={false} />
 
         <Description>
           <h2>Gucci Bag</h2>

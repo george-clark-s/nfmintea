@@ -23,18 +23,19 @@ export default function Home() {
       </Head>
       <Main>
         <LogoComponent />
-        <Title>ReSelfridges NFT</Title>
-        <ImageComponent img={sLogo} badge />
+        <Title>Buy NFT</Title>
+        <ImageComponent img={sLogo} badge small />
 
         <Description>
           <h2 style={{ margin: 0 }}>Gucci Bag</h2>
         </Description>
         <Description>Vintage 2021</Description>
         <Description>Pre-owned / Pre-loved</Description>
-
+        <Description>
+          <h3 style={{ margin: 0 }}>£999.99</h3>
+        </Description>
         <CtaRow>
-          <LinkOrButton href="/buy">BUY</LinkOrButton>
-          <LinkOrButton href="/info">NFT INFO</LinkOrButton>
+          <LinkOrButton href="/buy">ADD TO CART</LinkOrButton>
         </CtaRow>
       </Main>
     </Container>

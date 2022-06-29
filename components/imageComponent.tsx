@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import Image from "next/image";
+import About from "../pages/about";
 
-const ImageWrap = styled.div`
+const ImageWrap = styled.div<{ small: boolean }>`
   position: relative;
-  max-width: 30rem;
+  ${({ small }) => (small ? `max-width: 15rem;` : `max-width:30rem;`)}
   .badge {
     z-index: 99;
     position: absolute;
@@ -19,12 +20,12 @@ const ImageWrap = styled.div`
     }
   }
 `;
-const ImageComponent = ({ img, badge }) => (
-  <ImageWrap>
+const ImageComponent = ({ img, badge, small }) => (
+  <ImageWrap small={small}>
     {badge && (
       <div className="badge">
         <p>Verified</p>
-        <p>Authentic</p>
+        <p>Authentic!</p>
       </div>
     )}
     <Image src={img} height={1328} width={1020} />

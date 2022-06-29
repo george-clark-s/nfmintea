@@ -12,6 +12,7 @@ const SiteWrap = styled.div`
 const Container = styled.div`
   padding: 0 0.5rem;
   background white;
+  min-width:40rem;
   max-width: 40rem;
 `;
 const Main = styled.main`
@@ -68,7 +69,7 @@ const CtaRow = styled.div`
   padding: 0 1rem;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 `;
 
 export { SiteWrap, Container, Main, Logo, Title, Description, CtaRow };
