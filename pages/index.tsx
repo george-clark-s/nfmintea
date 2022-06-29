@@ -10,6 +10,9 @@ import Cards from "../components/cards";
 import LogoComponent from "../components/logoComponent";
 import ImageComponent from "../components/imageComponent";
 import sLogo from "../public/gucci-bag.jpeg";
+
+import LinkOrButton from "../components/LinkOrButton";
+
 export default function Home() {
   return (
     <Container>
@@ -22,6 +25,7 @@ export default function Home() {
         <LogoComponent />
         <Title>ReSelfridges NFT</Title>
         <ImageComponent img={sLogo} />
+        <LinkOrButton>hello world</LinkOrButton>
         <Description>
           Get started by editing
           <CodeTag>pages/index.tsx</CodeTag>
