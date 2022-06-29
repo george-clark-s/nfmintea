@@ -65,7 +65,7 @@ const CodeTag = styled.code`
     Bitstream Vera Sans Mono, Courier New, monospace;
 `;
 
-const CtaRow = styled.div`
+const CtaRow = styled.div<{ center?: boolean }>`
   padding: 0 1rem;
   width: 100%;
   display: flex;

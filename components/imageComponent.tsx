@@ -20,7 +20,18 @@ const ImageWrap = styled.div<{ small: boolean }>`
     }
   }
 `;
-const ImageComponent = ({ img, badge, small }) => (
+
+interface ImageComponentProps {
+  img: any;
+  badge?: boolean;
+  small?: boolean;
+}
+
+const ImageComponent: React.FC<ImageComponentProps> = ({
+  img,
+  badge,
+  small,
+}) => (
   <ImageWrap small={small}>
     {badge && (
       <div className="badge">
