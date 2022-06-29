@@ -5,7 +5,6 @@ const SiteWrap = styled.div`
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   min-height: 100vh;
   background: ${({ theme }) => theme.colors.primary};
 `;
@@ -16,15 +15,20 @@ const Container = styled.div`
   max-width: 40rem;
 `;
 const Main = styled.main`
-  padding: 5rem 0;
+  padding: 2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  > * {
+    margin: 2rem 0;
+  }
 `;
 
-const Logo = styled.div``;
+const Logo = styled.div`
+  max-width: 20rem;
+`;
 
 const Title = styled.h1`
   margin: 0;
