@@ -27,10 +27,11 @@ export default function Home() {
         <ImageComponent img={sLogo} badge />
 
         <Description>
-          <h2>Gucci Bag</h2>
+          <h2 style={{ margin: 0 }}>Gucci Bag</h2>
         </Description>
         <Description>Vintage 2021</Description>
         <Description>Pre-owned / Pre-loved</Description>
+
         <CtaRow>
           <LinkOrButton href="/buy">BUY</LinkOrButton>
           <LinkOrButton href="/info">NFT INFO</LinkOrButton>
