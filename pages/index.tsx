@@ -1,15 +1,15 @@
-import Image from "next/image";
 import Head from "next/head";
 import {
   Container,
   Main,
-  Logo,
   Title,
   Description,
   CodeTag,
 } from "../components/sharedstyles";
 import Cards from "../components/cards";
 import LogoComponent from "../components/logoComponent";
+
+import LinkOrButton from '../components/LinkOrButton';
 
 export default function Home() {
   return (
@@ -23,8 +23,8 @@ export default function Home() {
         <LogoComponent />
         <Title>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </Title>
-
+        </Title>  
+        <LinkOrButton>hello world</LinkOrButton>
         <Description>
           Get started by editing
           <CodeTag>pages/index.tsx</CodeTag>
