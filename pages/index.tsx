@@ -9,7 +9,7 @@ import {
   CodeTag,
 } from "../components/sharedstyles";
 import Cards from "../components/cards";
-import sLogo from "../public/sLogo.svg";
+import LogoComponent from "../components/logoComponent";
 
 export default function Home() {
   return (
@@ -20,9 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main>
-        <Logo>
-          <Image src={sLogo} />
-        </Logo>
+        <LogoComponent />
         <Title>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </Title>
